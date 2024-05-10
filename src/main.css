@@ -3,20 +3,45 @@
     src: url('./assets/Oswald-Bold.ttf');
   }
 
+  @font-face {
+    font-family: 'RobotoSlab-Medium';
+    src: url('./assets/RobotoSlab-Medium.ttf');
+  }
+
+  @font-face {
+    font-family: 'Roboto-Bold';
+    src: url('./assets/Roboto-Bold.ttf');
+  }
+
+
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Roboto-Bold", sans-serif;
     font-size: large;
+    text-transform: uppercase;
 }
 
 
 h1 {
-    font-family: 'Oswald-Bold', sans-serif;
-    font-weight: bolder;
-    font-size: xx-large;
-    color: #F47920;
+    font-family: 'RobotoSlab-Medium', sans-serif;
+    font-size: x-large;
+    color: black;
+    text-transform: uppercase;
 }
 
+h2 {
+  font-family: 'RobotoSlab-Medium', sans-serif;
+  font-size: x-large;
+  color: #F47920;
+  text-transform: uppercase;
+}
 
+ul {
+  padding-left: 0;
+}
+
+li {
+  padding-bottom: 2%;
+}
 
 
 .header {
@@ -39,7 +64,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     width: 40%;
     margin: 0 auto;
     outline: 3px solid black;
