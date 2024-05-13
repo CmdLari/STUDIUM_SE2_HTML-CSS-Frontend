@@ -1,6 +1,7 @@
 import Tagesplan from "./components/Tagesplan";
 import headerImage from "./assets/mensamatch_logo.png";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Profile from "./components/Profile";
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
                 {/*<Link to="/Larissa">Test</Link>*/}
                 <Tagesplan></Tagesplan>
               </div>
+                <div className="box2">
+                    <Profile></Profile>
+                </div>
             </>
           }
         />
